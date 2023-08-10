@@ -22,10 +22,13 @@ jQuery UI: Used for creating selectable lists of cities and providing an enhance
 
 ## How to Use
 Enter the name of the city you want to check the weather for in the search bar.
+![image](https://github.com/Punk1776/Go-to-weather/assets/135387049/64927dcc-1848-403e-85a0-0116a1df6ff2)
 
 Click the search button or press Enter to fetch and display the current weather details and the 5-day forecast.
+![image](https://github.com/Punk1776/Go-to-weather/assets/135387049/4f35df91-6b41-4725-bb10-bcf4e4ce3025)
 
 The app will store the last three searched cities in a list for quick access.
+![image](https://github.com/Punk1776/Go-to-weather/assets/135387049/9d04d6db-8393-4222-8a20-5874552c052c)
 
 Click on a previously searched city in the list to instantly view its weather information.
 
