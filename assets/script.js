@@ -20,7 +20,7 @@ userSearchBtn.addEventListener("click", () => {
     getWeather(city);
 
     // Store the searched city in the array and local storage
-    lastSearchedCities.unshift(city); // Add the city to the beginning of the array
+    lastSearchedCities.unshift(city); 
     if (lastSearchedCities.length > 3) {
         lastSearchedCities.pop(); // Remove the oldest city if the array size exceeds 3
     }
@@ -28,19 +28,19 @@ userSearchBtn.addEventListener("click", () => {
 
     // Update displayed city
     document.querySelector(".city").innerHTML = city;
-    userSearch.value = ""; // Clear the search input
+    userSearch.value = ""; 
 
     // Update selectable list
     updateSelectableList();
 });
-
+//updates info
 document.addEventListener("click", function (event) {
     if (event.target.classList.contains("city-item")) {
         const clickedCity = event.target.textContent;
-        userSearch.value = clickedCity; // Update the search input value
-        checkWeather(clickedCity); // Update current weather
-        getWeather(clickedCity); // Update forecast
-        document.querySelector(".city").innerHTML = clickedCity; // Update displayed city
+        userSearch.value = clickedCity; 
+        checkWeather(clickedCity); 
+        getWeather(clickedCity); 
+        document.querySelector(".city").innerHTML = clickedCity; 
     }
 });
 
